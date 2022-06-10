@@ -30,5 +30,8 @@ alert( result );
     * University: Belarusian National Technical University, Electrical Engineer
     * [GS50 leactures](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
 
+8. ## **English**
+A2 *(I had been practicing English, when I worked in the USA as an exchange student)*
+
      
 
