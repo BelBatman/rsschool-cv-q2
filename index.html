@@ -13,106 +13,21 @@
       rel="stylesheet"
     />
     <style>
-      .rounded-img {
-        width: 60%;
-        border-radius: 60%;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-        padding: 0.5em;
-        margin-bottom: 1em;
-      }
-      .nav-list {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        list-style: none;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-      body {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
-      .container {
-        max-width: 1440px;
-        margin: 0 auto;
-      }
-      html {
-        scroll-behavior: smooth;
-      }
-      .nav-list {
-        list-style: none;
-      }
-      .nav-link {
-        padding: 0 20px;
-        line-height: 60px;
-      }
-      .nav-link:hover {
-        background-color: rgba(0, 0, 0, 0.2);
-      }
-      .nav-link {
-        transition: 0.3s;
-      }
-      .section-item a {
-        color: #6a9b70;
-        text-decoration: none;
-        transition: color 0.5s;
-      }
-      .section-item a:hover {
-        color: #9b4e4e;
-      }
-      .main-container {
-        display: flex;
-        flex-wrap: wrap;
-      }
-
-      .section {
-        width: 50%;
-      }
-
-      @media (max-width: 768px) {
-        .section {
-          width: 100%;
+        .rounded-img {
+          width: 50%;
+          border-radius: 50% 20% / 10% 40%;
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+          padding: 0.5em;
+          margin-bottom: 1em;
+          display: inline;
         }
-      }
-      body {
-        font-family: "Anek Malayalam", sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 1.5;
-        color: #200a36;
-      }
-      .section-title {
-        font-size: 40px;
-        font-weight: 400;
-        text-transform: uppercase;
-        letter-spacing: 10px;
-        color: #080e09;
-      }
-      .section-sub {
-        font-size: 30px;
-        font-weight: 300;
-        text-transform: capitalize;
-        letter-spacing: 10px;
-        color: #165021;
-      }
-      .link {
-        text-decoration: none;
-        color: #829985;
-        transition: color 0.5s;
-      }
-
-      .link:hover {
-        color: #5d7260;
-      }
+        
     </style>
   </head>
-  <body>
-    <header clas="header">
-      <div class="container container-nav">
-        <nav class="nav">
+  <body class="body">
+    <header>
+      <div class="container">
+        <nav class="nav-link">
           <ul class="nav-list">
             <li class="nav-team">
               <a href="#contacs" class="nav-link">Contacs</a>
@@ -139,16 +54,121 @@
         </nav>
       </div>
     </header>
-    <main class="main">
+    <main class="main-container">
       <div class="container">
-        <section class="section" id="profile">
+        <section class="section-one" id="profile">
           <img class="rounded-img" src="./assets/img/img.png" alt="My Photo" />
           <div class="section">
             <h1 class="section-title">Kasavets Aliaksandr</h1>
-            <h3 class="section-sub">Junior Frontend Developer</h3>
+            <h2 class="section-sub">Junior Frontend Developer</h2>
           </div>
+        </section>
+        <section id="contacts">
+          <h2 class="secttion-title">Contacts</h2>
+          <ul>
+            <li>Phone: +375292505907</li>
+            <li>
+              Email:
+              <a href="belbatman3000@gmail.com" title="Email">
+                belbatman3000@gmail.com</a
+              >
+            </li>
+            <li>
+              Github:<a href="https://github.com/BelBatman" title="Github">
+                BelBatman</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section id="about me">
+          <h2>About Me</h2>
+          <p>
+            I have good interpersonal skills, am an excellent team worker and
+            very willing to learn and develop new skills. I am reliable and
+            dependable
+            <br />
+            and often seek new responsibilities within a wide range of
+            employment areas.
+          </p>
+        </section>
+        <section id="skils">
+          <h2>Skils</h2>
+          <ul>
+            <li>HTML</li>
+            <li>GIT</li>
+          </ul>
+        </section>
+        <section id="code example">
+          <h2>Code Example</h2>
+          <p>
+            function sum(a, b) { return a + b; }
+
+            <br />
+            let result = sum(1, 2); alert( result );
+          </p>
+        </section>
+        <section id="expirience">
+          <h2>Experience</h2>
+          <ul>
+            <li>
+              <a
+                href="https://belbatman.github.io/rsschool-cv/cv"
+                title="Markdown & Git"
+                >CV#1. Markdown & Git</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://BelBatman.github.io/rsschool-cv/"
+                title="CV#3. Cross-chek"
+                >CV#3. Cross-chek</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section id="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              University: Belarusian National Technical University, Electrical
+              Engineer
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA"
+                title="GS50 leactures"
+                >GS50 leactures</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section id="english">
+          <h2>English</h2>
+          <p>A2 (I had been practicing English)</p>
         </section>
       </div>
     </main>
+    <footer>
+      <div class="footer">
+        <div>
+          <a href="https://BelBatman.github.io/rsschool-cv/" target="_blank"
+            ><img
+              src="assets/img/github.png"
+              height="70"
+              width="70"
+              alt="Github"
+          /></a>
+        </div>
+        <div>
+          <h2><time>2022</time></h2>
+        </div>
+        <div class="rsschool">
+          <a href="https://rs.school/js/" target="_blank">
+            <img src="assets/img/rsscool.png" height="100" alt="rsschool"
+          /></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
