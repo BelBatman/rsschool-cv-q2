@@ -1,3 +1,3 @@
-# rsschool-cv-q2
+# q2
 https://belbatman.github.io/rsschool-cv/cv
 https://belbatman.github.io/rsschool-cv/
